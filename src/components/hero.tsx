@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen bg-[#FC4B37] py-28">
+    <section className="bg-[#FC4B37] py-28">
       <div className="container mx-auto flex flex-col items-center justify-center gap-20">
         <div className="space-y-[50px] flex flex-col items-center">
           <h1 className="text-primary-foreground text-[100px] leading-tight font-bold text-center">
@@ -17,7 +17,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="relative w-[1600px] h-[900px]">
-          <Image src={"/hero.png"} alt="hero" className="object-cover w-full h-full" fill />
+          <Image src={"/hero/hero.png"} alt="hero" className="object-cover w-full h-full" fill />
         </div>
       </div>
     </section>

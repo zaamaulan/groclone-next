@@ -1,8 +1,14 @@
 import { Hero } from "@/components/hero"
+import { Tools } from "@/components/tools"
 import React from "react"
 
 const Page = () => {
-  return <Hero />
+  return (
+    <>
+      <Hero />
+      <Tools />
+    </>
+  )
 }
 
 export default Page
