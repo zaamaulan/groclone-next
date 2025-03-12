@@ -1,26 +1,6 @@
+import { toolSections } from "@/data/tool-section"
 import { Check } from "lucide-react"
 import Image from "next/image"
-
-const toolSections = [
-  {
-    title: "Advance Campaign Monitoring",
-    heading: "Monitor marketing campaigns",
-    description:
-      "Stay ahead of the game. Monitor your marketing campaigns in real-time with our intuitive tools, and make data-driven decisions for optimal results.",
-    image: "/tools/campaign.png",
-    features: ["Realtime analytics", "Best campaign manager", "Detailed contact data"],
-    reverse: false,
-  },
-  {
-    title: "Detailed User Analytics",
-    heading: "Have all customer data in one place",
-    description:
-      "Streamline your customer insights. Keep all your customer data in one place, and get a complete view of their behavior and preferences for personalized engagement.",
-    image: "/tools/analytics.png",
-    features: ["Advanced reports", "User path analytics", "Predictive user trends"],
-    reverse: true,
-  },
-]
 
 export const Tools = () => {
   return (
@@ -46,7 +26,7 @@ export const Tools = () => {
             )}
 
             <div className="space-y-10">
-              <p className="text-[#FC4B37] text-[22px]">{section.title}</p>
+              <p className="text-primary text-[22px]">{section.title}</p>
               <h3 className="text-[72px] font-bold leading-tight">{section.heading}</h3>
               <p className="text-[22px]">{section.description}</p>
               <ul className="flex flex-col gap-2">
