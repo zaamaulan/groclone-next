@@ -1,22 +1,22 @@
 export const items = [
   {
-    href: "/",
-    text: "Home",
+    href: '/',
+    text: 'Home',
   },
   {
-    href: "#",
-    text: "Pricing",
+    href: '#',
+    text: 'Pricing',
   },
   {
-    href: "#",
-    text: "Blog",
+    href: '#',
+    text: 'Blog',
   },
   {
-    href: "#",
-    text: "About",
+    href: '#',
+    text: 'About',
   },
   {
-    href: "#",
-    text: "Contact",
+    href: '#',
+    text: 'Contact',
   },
 ] satisfies Navlink[]

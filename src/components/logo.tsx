@@ -1,7 +1,5 @@
 import React from 'react'
 
 export const Logo = () => {
-  return (
-    <span>Groclone.</span>
-  )
+  return <span>Groclone.</span>
 }

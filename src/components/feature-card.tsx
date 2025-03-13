@@ -1,5 +1,5 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import Image from "next/image"
+import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import Image from 'next/image'
 
 interface FeatureCardProps {
   title: string
@@ -9,8 +9,8 @@ interface FeatureCardProps {
 
 export const FeatureCard = ({ description, title, icon }: FeatureCardProps) => {
   return (
-    <Card className="rounded-[20px] bg-[#F4F4F4] border-none p-10 shadow-none">
-      <div className="bg-primary/12 rounded-full size-20 grid place-items-center">
+    <Card className="rounded-[20px] border-none bg-[#F4F4F4] p-10 shadow-none">
+      <div className="bg-primary/12 grid size-20 place-items-center rounded-full">
         <Image src={icon} alt={`${title}-icon`} width={26} height={26} className="size-8" />
       </div>
       <CardHeader className="p-0">

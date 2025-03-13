@@ -1,7 +1,8 @@
-import { Feature } from "@/components/feature"
-import { Hero } from "@/components/hero"
-import { Tools } from "@/components/tools"
-import React from "react"
+import { Feature } from '@/components/feature'
+import { Hero } from '@/components/hero'
+import { Testimoni } from '@/components/testimoni'
+import { Tools } from '@/components/tools'
+import React from 'react'
 
 const Page = () => {
   return (
@@ -9,6 +10,7 @@ const Page = () => {
       <Hero />
       <Tools />
       <Feature />
+      <Testimoni />
     </>
   )
 }
